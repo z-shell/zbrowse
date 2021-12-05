@@ -1,6 +1,14 @@
-# `ZBROWSE`
+<h1> ZBrowse </h1>
 
----
+- [Introduction](#introduction)
+- [Installation](#installation)
+  - [ZI](#zi)
+  - [Zinit](#zinit)
+  - [Antigen](#antigen)
+  - [Oh-My-Zsh](#oh-my-zsh)
+  - [Zgen](#zgen)
+
+# Introduction
 
 When doing shell work, it is often the case that `echo $variable` is invoked multiple times,
 to check result of a loop, etc. With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `Zshell`
@@ -25,15 +33,19 @@ source {where-zbrowse-is}/zbrowse.plugin.zsh
 
 to `zshrc`.
 
-If using a plugin manager, then `Zinit` is recommended, but you can use any
+If using a plugin manager, then `ZI` is recommended, but you can use any
 other too, and also install with `Oh My Zsh` (by copying directory to
 `~/.oh-my-zsh/custom/plugins`).
 
-## [Zinit](https://github.com/z-shell/zinit)
+## [ZI](https://github.com/z-shell/zi)
 
-Add `zinit load z-shell/zbrowse` to your `.zshrc` file. Zinit will handle
+Add `zi load z-shell/zbrowse` to your `.zshrc` file. ZI will handle
 cloning the plugin for you automatically the next time you start zsh. To update
-run `zinit update z-shell/zbrowse` (`update-all` can also be used).
+run `zi update z-shell/zbrowse` (`update-all` can also be used).
+
+## [Zinit](https://github.com/z-shell/zdharma-continuum/zinit)
+
+Add `zinit load z-shell/zbrowse` to your `.zshrc` file.
 
 ## Antigen
 
