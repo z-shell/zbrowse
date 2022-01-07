@@ -1,4 +1,9 @@
-<h1> ZBrowse </h1>
+<h2 align="center">
+  <a href="https://github.com/z-shell/zi">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
+  </a>
+❮ ZI ❯ Plugin - ZBrowse
+</h2>
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -14,7 +19,7 @@ When doing shell work, it is often the case that `echo $variable` is invoked mul
 to check result of a loop, etc. With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `Zshell`
 variable browser:
 
-![ZBrowse](https://github.com/z-shell/zbrowse/blob/main/images/zbrowse.png)
+![ZBrowse](images/zbrowse.png)
 
 (you can resize the video like any web page)
 

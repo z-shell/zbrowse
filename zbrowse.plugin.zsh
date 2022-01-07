@@ -13,8 +13,8 @@ ZBROWSE_REPO_DIR="${0:h}"
 
 #
 # Update FPATH if:
-# 1. Not loading with Zinit or other standard-compliant p-m
-#    (see: http://z-shell.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html).
+# 1. Not loading with ZI or other standard-compliant p-m
+#    (see: https://z-shell.github.io/docs/zsh/Zsh-Plugin-Standard.html).
 # 2. Not having fpath already updated (that is being done by other p-ms).
 #
 
