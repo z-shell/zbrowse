@@ -8,7 +8,6 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
   - [ZI](#zi)
-  - [Zinit](#zinit)
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Zgen](#zgen)
@@ -19,7 +18,7 @@ When doing shell work, it is often the case that `echo $variable` is invoked mul
 to check result of a loop, etc. With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `Zshell`
 variable browser:
 
-![ZBrowse](images/zbrowse.png)
+![ZBrowse](https://github.com/z-shell/zbrowse/edit/main/docs/images/zbrowse.png)
 
 (you can resize the video like any web page)
 
@@ -47,10 +46,6 @@ other too, and also install with `Oh My Zsh` (by copying directory to
 Add `zi load z-shell/zbrowse` to your `.zshrc` file. ZI will handle
 cloning the plugin for you automatically the next time you start zsh. To update
 run `zi update z-shell/zbrowse` (`update-all` can also be used).
-
-## [Zinit](https://github.com/z-shell/zdharma-continuum/zinit)
-
-Add `zinit load z-shell/zbrowse` to your `.zshrc` file.
 
 ## Antigen
 
