@@ -18,7 +18,7 @@ When doing shell work, it is often the case that `echo $variable` is invoked mul
 to check result of a loop, etc. With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `Zshell`
 variable browser:
 
-![ZBrowse](https://github.com/z-shell/zbrowse/edit/main/docs/images/zbrowse.png)
+![ZBrowse](https://github.com/z-shell/zbrowse/raw/main/docs/images/zbrowse.png)
 
 (you can resize the video like any web page)
 
