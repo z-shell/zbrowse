@@ -1,12 +1,13 @@
+# -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
 #
 # No plugin manager is needed to use this file. All that is needed is adding:
 #   source {where-zbrowse-is}/zbrowse.plugin.zsh
 #
 # to ~/.zshrc.
 #
-
-0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
+0="${ZERO:-${${0:#$ZSH_ARGZERO}:-${(%):-%N}}}"
 0="${${(M)0:#/*}:-$PWD/$0}"
+
 ZBROWSE_REPO_DIR="${0:h}"
 
 [[ ! -d "${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse" ]] && command mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse"
@@ -14,7 +15,7 @@ ZBROWSE_REPO_DIR="${0:h}"
 #
 # Update FPATH if:
 # 1. Not loading with ZI or other standard-compliant p-m
-#    (see: https://z-shell.github.io/docs/zsh/Zsh-Plugin-Standard.html).
+#    (see: https://z.digitalclouds.dev/community/zsh_plugin_standard#activity-indicator).
 # 2. Not having fpath already updated (that is being done by other p-ms).
 #
 
@@ -195,3 +196,5 @@ __zbrowse_precmd() {
 autoload -Uz add-zsh-hook
 add-zsh-hook preexec __zbrowse_preexec
 add-zsh-hook precmd __zbrowse_precmd
+
+# vim: ft=zsh sw=2 ts=2 et
