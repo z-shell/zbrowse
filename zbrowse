@@ -1,3 +1,5 @@
+# -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
+#
 # Started from Zle or from command line
 #
 # Allows to browse Zsh data structures, but it's main
@@ -493,4 +495,4 @@ zui-event-loop 1:iparams_generator_A 1:paramhist_generator_B 1:allparams_generat
 
 return 0
 
-# vim:ft=zsh
+# vim: ft=zsh sw=2 ts=2 et
