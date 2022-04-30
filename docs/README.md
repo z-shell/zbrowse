@@ -40,7 +40,7 @@
   </p>
 </td></tr><tr><td align="left"><br />
 
-When doing shell work, it is often the case that `echo $variable` is invoked multiple times, to check result of a loop, etc. 
+When doing shell work, it is often the case that `echo $variable` is invoked multiple times, to check result of a loop, etc.
 
 With ZBrowse, you just need to press `Ctrl-B`, which invokes the `ZBrowse` – `Zshell` variable browser.
 
