@@ -1,4 +1,5 @@
 # -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
+# vim: ft=zsh sw=2 ts=2 et
 #
 # No plugin manager is needed to use this file. All that is needed is adding:
 #   source {where-zbrowse-is}/zbrowse.plugin.zsh
@@ -196,5 +197,3 @@ __zbrowse_precmd() {
 autoload -Uz add-zsh-hook
 add-zsh-hook preexec __zbrowse_preexec
 add-zsh-hook precmd __zbrowse_precmd
-
-# vim: ft=zsh sw=2 ts=2 et
