@@ -1,4 +1,5 @@
 # -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
+# vim: ft=zsh sw=2 ts=2 et
 #
 # Started from Zle or from command line
 #
@@ -494,5 +495,3 @@ zui-event-loop 1:iparams_generator_A 1:paramhist_generator_B 1:allparams_generat
 -zui_std_cleanup serialize
 
 return 0
-
-# vim: ft=zsh sw=2 ts=2 et
