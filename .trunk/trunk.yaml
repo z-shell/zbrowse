@@ -20,7 +20,6 @@ lint:
     - zsh-n@system
     - actionlint@1.6.12
     - gitleaks@8.8.4
-    - hadolint@2.10.0
     - markdownlint@0.31.1
     - prettier@2.6.2
     - shellcheck@0.8.0
@@ -28,7 +27,7 @@ lint:
   ignore:
     - linters: [ALL]
       paths:
-        - ".*"
+        - "zbrowse.plugin.zsh"
     - linters: [actionlint]
       paths:
         - .github/workflows/sync-labels.yml
