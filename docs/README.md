@@ -69,39 +69,20 @@ cloning the plugin for you automatically the next time you start zsh.</p>
 your other <code>zgen load</code> calls.</p>
 
 </td></tr>
- <tr><td align="center">
+ <tr><td>
   <h2 align="left">Credits</h2>
-      <a href="https://trunk.io" rel="nofollow">
-        <img align="center"
-          style="width: 140; height: 40px"
-          src="https://storage.googleapis.com/digital-space/img/brand/trunk/trunk-white.svg"
-          alt="Trunk"
-        />
-      </a>
-      <a
-        href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on"
-        rel="nofollow"
-      >
-        <img align="center"
-          style="width: 140px; height: 40px"
-          src="https://storage.googleapis.com/digital-space/img/brand/crowdin/localization-at-dark-rounded%402x.png"
-          alt="Crowdin | Agile localization for tech companies"
-        />
-      </a>
-      <a href="https://www.digitalocean.com/?refcode=090bdb63f800&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"
-        rel="nofollow"
-      >
-        <img align="center"
-          style="width: 140px; height: 40px"
-          src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg"
-          alt="DigitalOcean Referral Badge"
-        />
-      </a>
-      <a href="https://cloudflare.com" rel="nofollow">
-        <img align="center"
-          style="width: 140px; height: 40px"
-          src="https://storage.googleapis.com/digital-space/img/brand/cloudflare/cf-logo-v-rgb.png"
-          alt="Cloudflare"
-        />
-      </a>
+  <p align="center">
+   <a href="https://trunk.io" rel="nofollow">
+    <img align="center" style="width: 140; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/trunk/trunk-white.svg" alt="Trunk" />
+   </a>
+   <a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
+    <img align="center" style="width: 140px; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/crowdin/localization-at-dark-rounded%402x.png" alt="Crowdin | Agile localization for tech companies" />
+   </a>
+   <a href="https://www.digitalocean.com/?refcode=090bdb63f800&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" rel="nofollow">
+    <img align="center" style="width: 140px; height: 40px" src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" />
+   </a>
+   <a href="https://cloudflare.com" rel="nofollow">
+    <img align="center" style="width: 140px; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/cloudflare/cf-logo-v-rgb.png" alt="Cloudflare" />
+   </a>
+  </p>
  </td></tr></table>
