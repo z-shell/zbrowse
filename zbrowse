@@ -360,7 +360,7 @@ zbrowse_type_action() {
 
 paramhist_generator_B() {
     local __mod="$1" __ice="$2" __arg="$3"
-    local __data_dir="${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse" __line __param __lparam __tpe __space=" "
+    local __data_dir="${XDG_CONFIG_HOME:-$HOME/.config}/zi/zbrowse" __line __param __lparam __tpe __space=" "
     integer __pdiff __tdiff
     local -a __log __splitted __all_value __aparam __atype __avalue __aset
     [[ -f "${__data_dir}/param.log" ]] && __log=( "${(@f)"$(<${__data_dir}/param.log)"}" )
