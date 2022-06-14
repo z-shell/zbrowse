@@ -11,7 +11,7 @@
 
 ZBROWSE_REPO_DIR="${0:h}"
 
-[[ ! -d "${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse" ]] && command mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse"
+[[ ! -d "${XDG_CONFIG_HOME:-$HOME/.config}/zi/zbrowse" ]] && command mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zi/zbrowse"
 
 #
 # Update FPATH if:
@@ -148,7 +148,7 @@ __zbrowse_precmd() {
     local __size_limit
     zstyle -s ':plugin:zbrowse' var-size-limit __size_limit || __size_limit="2048"
 
-    local data_dir="${XDG_CONFIG_HOME:-$HOME/.config}/zbrowse"
+    local data_dir="${XDG_CONFIG_HOME:-$HOME/.config}/zi/zbrowse"
     local -a __elems __all_elems
     local __param __param2 __value_str __text __all_text __last
     for __param in "${ZBROWSE_CHANGED_IPARAMS[@]}"; do
