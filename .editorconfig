@@ -9,14 +9,17 @@
 # Answers:
 #
 # 1. Pressing the Tab key should indent the current line (or selected lines) one additional level.
-# 2. As a secondary alternative, I can also tolerate an editor that, like Emacs, uses this key for a context-sensitive fix-my-indentation command.
-# 3. Indenting one or more lines should follow the reigning convention, if consensus is sufficiently strong; otherwise, I greatly prefer 4-space indentation at each level.
-#    U+0009 characters should shift subsequent characters to the next tab stop. Tab stops begin at column 1 and are 8 columns apart, no exceptions.
+# 2. As a secondary alternative, I can also tolerate an editor that,
+#    like Emacs, uses this key for a context-sensitive fix-my-indentation command.
+# 3. Indenting one or more lines should follow the reigning convention, if consensus is sufficiently strong; otherwise,
+#    I greatly prefer 2-space indentation at each level. U+0009 characters should shift subsequent characters to the next tab stop.
 #
 # Note: VIM users should use alternate marks [[[ and ]]] as the original ones can confuse nested substitutions, e.g.: ${${${VAR}}}
 #
+#----------------------------------------------------------------------------------------------------------------------
 # -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
 # vim: ft=zsh sw=2 ts=2 et
+#----------------------------------------------------------------------------------------------------------------------
 
 root = true
 
@@ -39,17 +42,9 @@ tab_width = 2
 indent_style = tab
 indent_size = 4
 
-[*.{xml,json}]
-indent_style = space
-indent_size = 2
-
 [*.{css,less}]
 indent_style = space
 indent_size = 2
-
-[*.{js,jsx,html,sass}]
-indent_style = tab
-indent_size = 4
 
 [*.{py,rb}]
 indent_style = space
@@ -59,10 +54,10 @@ indent_size = 4
 indent_style = tab
 indent_size = 4
 
-[*.{yml,yaml}]
+[*.{js,jsx,html,xml,sass,json,yml,yaml,toml}]
+charset = utf-8
 indent_style = space
 indent_size = 2
-tab_width = 2
 
 [CHANGELOG.md]
 indent_style = tab
