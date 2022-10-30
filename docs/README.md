@@ -2,19 +2,19 @@
  <tr align="justify" margin-left="auto" margin-right="auto"><td align="center">
   <h1 align="center">
   <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80px" height="80px" />
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.png" alt="Logo" width="80px" height="80px" />
   </a>
-  ❮ ZI ❯ Plugin - Zbrowse
+  ❮ Zi ❯ Plugin - Zbrowse
   </h1>
 <h3 align="center">
   <a href="https://github.com/orgs/z-shell/discussions/">《❔》Ask a Question </a>
-  <a href="https://z.digitalclouds.dev/search/">《💡》Search Wiki </a>
+  <a href="https://wiki.zshell.dev/search">《💡》Search Wiki </a>
   <a href="https://github.com/z-shell/community/issues/new?assignees=&labels=%F0%9F%91%A5+member&template=membership.yml&title=team%3A+">《💜》Join </a>
-  <a href="https://digitalclouds.crowdin.com/z-shell/">《🌐》Localize </a>
+  <a href="https://translate.zshell.dev">《🌐》Localize </a>
 </h3>
 </td></tr>
 <tr><td align="center"><p>
-  <a title="Crowdin" target="_self" href="https://crowdin.digitalclouds.dev/z-shell">
+  <a title="Crowdin" target="_self" href="https://tranlsate.zshell.dev">
     <img align="center" src="https://badges.crowdin.net/e/f108c12713ee8526ac878d5671ad6e29/localized.svg" />
   </a>
   <a title="License GPL-3.0" target="_self" href="https://www.gnu.org/licenses/gpl-3.0/">
