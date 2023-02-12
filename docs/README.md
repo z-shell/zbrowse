@@ -1,19 +1,17 @@
-<table align="center">
- <tr align="justify" margin-left="auto" margin-right="auto"><td align="center">
-  <h1 align="center">
+<h1 align="center">
   <a href="https://github.com/z-shell/zi">
     <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.png" alt="Logo" width="80px" height="80px" />
   </a>
-  ❮ Zi ❯ Plugin - Zbrowse
+  ❮ Z-Shell Plugin - Zbrowse ❯
   </h1>
+<h2 align="center">
+  <a href="https://github.com/orgs/z-shell/discussions/">《 ❔ 》Ask a Question </a>
+  <a href="https://wiki.zshell.dev/search">《 💡 》Search Wiki </a>
+  <a href="https://translate.zshell.dev">《 🌐 》Localize </a>
+</h2>
+
 <h3 align="center">
-  <a href="https://github.com/orgs/z-shell/discussions/">《❔》Ask a Question </a>
-  <a href="https://wiki.zshell.dev/search">《💡》Search Wiki </a>
-  <a href="https://github.com/z-shell/community/issues/new?assignees=&labels=%F0%9F%91%A5+member&template=membership.yml&title=team%3A+">《💜》Join </a>
-  <a href="https://translate.zshell.dev">《🌐》Localize </a>
-</h3>
-</td></tr>
-<tr><td align="center"><p>
+<p align="center">
   <a title="Crowdin" target="_self" href="https://tranlsate.zshell.dev">
     <img align="center" src="https://badges.crowdin.net/e/f108c12713ee8526ac878d5671ad6e29/localized.svg" />
   </a>
@@ -37,7 +35,7 @@
   </p><p>
     <img align="center" src="https://github.com/z-shell/zbrowse/raw/main/docs/images/zbrowse.png" width="100%" heigh="auto" />
   </p>
-</td></tr><tr><td align="left"><br />
+</h3>
 
 <p>When doing shell work, it is often the case that <code>echo $variable</code> is invoked multiple times, to check the result of a loop, etc.</p>
 <p>With ZBrowse, you just need to press <code>Ctrl-B</code>, which invokes the <code>ZBrowse</code> – <code>Zshell</code> variable browser.</p>
@@ -68,21 +66,19 @@ cloning the plugin for you automatically the next time you start zsh.</p>
 <p>Add <code>zgen load z-shell/zbrowse</code> to your .zshrc file in the same place you&#39;re doing
 your other <code>zgen load</code> calls.</p>
 
-</td></tr>
- <tr><td>
-  <h2 align="left">Credits</h2>
-  <p align="center">
+## Credits
+
+<p align="center">
    <a href="https://trunk.io" rel="nofollow">
-    <img align="center" style="width: 140; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/trunk/trunk-white.svg" alt="Trunk" />
+    <img width="140px" height="40px" align="center" src="https://storage.googleapis.com/digital-space/img/brand/trunk/trunk-white.svg" alt="Trunk" />
    </a>
    <a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
-    <img align="center" style="width: 140px; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/crowdin/localization-at-dark-rounded%402x.png" alt="Crowdin | Agile localization for tech companies" />
+    <img align="center" width="140px" height="40px" src="https://storage.googleapis.com/digital-space/img/brand/crowdin/localization-at-dark-rounded%402x.png" alt="Crowdin | Agile localization for tech companies" />
    </a>
    <a href="https://www.digitalocean.com/?refcode=090bdb63f800&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" rel="nofollow">
-    <img align="center" style="width: 140px; height: 40px" src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" />
+    <img align="center" width="140px" height="40px" src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" />
    </a>
    <a href="https://cloudflare.com" rel="nofollow">
-    <img align="center" style="width: 140px; height: 40px" src="https://storage.googleapis.com/digital-space/img/brand/cloudflare/cf-logo-v-rgb.png" alt="Cloudflare" />
+    <img align="center" width="140px" height="40px" src="https://storage.googleapis.com/digital-space/img/brand/cloudflare/cf-logo-v-rgb.png" alt="Cloudflare" />
    </a>
-  </p>
- </td></tr></table>
+</p>
