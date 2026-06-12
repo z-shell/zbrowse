@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Run Labeler
-        uses: actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b
+        uses: actions/labeler@f27b608878404679385c85cfa523b85ccb86e213
         with:
           sync-labels: false
